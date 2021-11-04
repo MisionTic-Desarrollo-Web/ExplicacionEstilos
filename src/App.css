@@ -1,5 +1,7 @@
-.fondoNegro{
-  color: white;
-  background-color: black;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+.boton{
+    @apply border-2 border-blue-400 p-4 bg-green-400 text-black hover:bg-purple-700 rounded-lg shadow-lg
+}
